@@ -203,19 +203,15 @@ a:hover {
 .left_buttons > span:hover {
   background-color: #006DB2;
 }
-
 .first_button_container:hover .first_button {
-  background-color:#003652;
+  background-color: #003652;
 }
-
 .second_button_container:hover .second_button {
-  background-color:#003652;
+  background-color: #003652;
 }
-
 .third_button_container:hover .third_button {
-  background-color:#003652;
+  background-color: #003652;
 }
-
 .left_buttons a {
   text-decoration: none;
   color: #FFF;
@@ -252,9 +248,11 @@ a:hover {
   position: relative;
   max-width: 278px;
 }
-.right_profile_pic img {
-  max-height: 84px;
+.right_profile_pic img, .right_profile_pic {
+  height: 84px;
+  width: 84px;
   border-radius: 100%;
+  margin: 0 auto;
 }
 .right_profile_pic::after {
   content: "";
@@ -278,7 +276,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   color: #006DB2;
   font-weight: 600;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 .right a {
   font-family: 'Open Sans', sans-serif;
@@ -286,7 +284,7 @@ a:hover {
   font-weight: 600;
 }
 .right_large_img {
-  margin-top: 50px;
+  margin-top: 52px;
   position: relative;
   height: 300px;
 }
@@ -324,7 +322,7 @@ a:hover {
   font-weight: 400;
 }
 .right_heading_container {
-  margin-top: 71px;
+  margin-top: 69px;
 }
 .right_heading_container h5 {
   color: #106DB3;
@@ -337,7 +335,7 @@ a:hover {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  margin-top: 7px;
+  margin-top: 4px;
   line-height: 24px;
   letter-spacing: -0.4px;
 }
@@ -456,7 +454,7 @@ footer h5 {
 .img_event_1 span {
   position: absolute;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 990px) {
   .content .left {
     display: block;
     margin: 0 auto;
@@ -484,13 +482,16 @@ footer h5 {
   .footer_banner {
     padding: 13px;
   }
+  .content .left {
+    width: 85%;
+  }
 }
 @media screen and (max-width: 625px) {
   .img_wrapper div {
     width: 50%;
   }
 }
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 550px) {
   .left_buttons > span {
     display: block;
     margin: 10px auto auto auto;
